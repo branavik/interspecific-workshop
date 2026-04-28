@@ -25,3 +25,23 @@ library(utils)     # dendro
 theme_set(theme_classic())
 
 # READ IN DATA ----
+
+# read in ring count data - NR & BK created these raw collection files April 28th, 2026
+c_potr <- read_tsv(here::here("data/raw/interspecific_workshop_C_POTR_tab.txt"))  # read_tsv is for tab-separated
+#View(c_potr)
+a_potr <- read_tsv(here::here("data/raw/interspecific_workshop_A_POTR_tab.txt"))  # read_tsv is for tab-separated
+#View(a_potr)
+a_pigl <- read_tsv(here::here("data/raw/interspecific_workshop_A_PIGL_tab.txt"))  # read_tsv is for tab-separated
+#View(a_pigl)
+c_pigl <- read_tsv(here::here("data/raw/interspecific_workshop_C_PIGL_tab.txt"))  # read_tsv is for tab-separated
+#View(c_pigl)
+
+
+
+
+
+
+
+
+
+
